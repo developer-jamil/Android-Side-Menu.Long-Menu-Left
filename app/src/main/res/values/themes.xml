@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.AndroidSideMenuLongMenuLeft" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.AndroidSideMenuLongMenuLeft" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -12,5 +12,43 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+
+
+        <!-- Change the color of the navigation drawer icon -->
+        <item name="colorControlNormal">@color/white</item>
+
     </style>
+
+
+
+    <!--Linear Icon Area-->
+    <style name="icon_area">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <!--Image Icon Style-->
+    <style name="ImageIcon_Style">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:tint">@color/white</item>
+    </style>
+    <!--View Style-->
+    <style name="View_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <!--red tint-->
+    <style name="ImageIcon_Style.redTint">
+        <item name="android:tint">@color/red</item>
+    </style>
+
+
+
 </resources>

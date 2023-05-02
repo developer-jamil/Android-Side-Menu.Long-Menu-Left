@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/side_menu_area"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <!--Cancel Area-->
+    <LinearLayout
+        android:id="@+id/cancelAreaId"
+        style="@style/icon_area">
+
+        <ImageView
+            style="@style/ImageIcon_Style.redTint"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_cancel_presentation_24"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <View style="@style/View_Style" />
+
+    <!--Home Area-->
+    <LinearLayout
+        android:id="@+id/homeAreaId"
+        style="@style/icon_area">
+        <ImageView
+            android:id="@+id/imageViewId"
+            style="@style/ImageIcon_Style"
+            android:src="@drawable/ic_baseline_home_24"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+    <View style="@style/View_Style" />
+
+    <!--About Area-->
+    <LinearLayout
+        android:id="@+id/aboutAreaId"
+        style="@style/icon_area">
+        <ImageView
+            android:id="@+id/imageViewAboutId"
+            style="@style/ImageIcon_Style"
+            android:src="@drawable/ic_baseline_person_24"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+    <View style="@style/View_Style" />
+
+    <!--Settings Area-->
+    <LinearLayout
+        android:id="@+id/settingAreaId"
+        style="@style/icon_area">
+        <ImageView
+            android:id="@+id/imageViewProjectsId"
+            style="@style/ImageIcon_Style"
+            android:src="@drawable/ic_baseline_settings_24"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+    <View style="@style/View_Style" />
+
+    <!--Contact Area-->
+    <LinearLayout
+        android:id="@+id/contactAreaId"
+        style="@style/icon_area">
+        <ImageView
+            android:id="@+id/imageViewContactId"
+            style="@style/ImageIcon_Style"
+            android:src="@drawable/ic_baseline_contacts_24"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+    <View style="@style/View_Style" />
+
+    <!--Help Area-->
+    <LinearLayout
+        android:id="@+id/helpAreaId"
+        style="@style/icon_area">
+        <ImageView
+            android:id="@+id/imageViewHelpId"
+            style="@style/ImageIcon_Style"
+            android:src="@drawable/ic_baseline_help_outline_24"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+    <View style="@style/View_Style" />
+
+    <!--Exit Area-->
+    <LinearLayout
+        android:id="@+id/exitAreaId"
+        style="@style/icon_area">
+        <ImageView
+            style="@style/ImageIcon_Style"
+            android:src="@drawable/ic_baseline_exit_to_app_24"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+    <View style="@style/View_Style" />
+
+
+</LinearLayout>
